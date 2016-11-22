@@ -19,6 +19,7 @@ namespace QL_HSGV
         ConnectDB CN = new ConnectDB();
         public Frm_HS()
         {
+           
             InitializeComponent();
             if(Uutien == "1")
             {
@@ -161,6 +162,7 @@ namespace QL_HSGV
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+      
             Frm_ThongTinHS frmTTHS = new Frm_ThongTinHS(1);
             frmTTHS.ShowDialog();
         }

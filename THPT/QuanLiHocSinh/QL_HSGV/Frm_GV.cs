@@ -15,7 +15,7 @@ namespace QL_HSGV
     {
         public static string Uutien;
 
-        string strConnectionString = @"Data Source=.;Initial Catalog=TruongTHPT;Integrated Security=True";    
+        string strConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=TruongTHPT;Integrated Security=True";    
         ConnectDB CN = new ConnectDB();
         SqlDataAdapter daGiaoVien = null;
         DataTable dtGiaoVien = null;
@@ -352,7 +352,6 @@ namespace QL_HSGV
                             conn.Open();
                             // đây là đổ dữ liệu vào bảng 
                             daGiaoVien = new SqlDataAdapter("select * from tblGiaoVien where MaGV= '" + txt_MaGV.Text + "' ", conn);
-
                             dtGiaoVien = new DataTable();
                             dtGiaoVien.Clear();
                             daGiaoVien.Fill(dtGiaoVien);

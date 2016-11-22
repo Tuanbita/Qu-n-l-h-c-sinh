@@ -16,7 +16,7 @@ namespace QL_HSGV
         {
             try
             {
-                con = new SqlConnection(@"Data Source=DESKTOP-6P1NHGH\SQLEXPRESS;Initial Catalog=TruongTHPT;Integrated Security=True");
+                con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=TruongTHPT;Integrated Security=True");
                 con.Open();
             }
             catch
@@ -79,19 +79,19 @@ namespace QL_HSGV
             DongKN();
             return dt;
         }
-        public void Sua_TTHS(string mahs,string ten,string lop, string gt,string diachi,string phuhuynh, string quequan,string ngaysinh)
+        public void Sua_TTHS(string mahs, string ten, string gt, string ngaysinh, string diachi, string phuhuynh, string lop, string quequan)
         {
             MoKN();
             SqlCommand cmd = new SqlCommand("Sua_TTHS", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Add(new SqlParameter("@mahs", mahs));
-            cmd.Parameters.Add(new SqlParameter("@hodem", ten));
+            cmd.Parameters.Add(new SqlParameter("@hovaten", ten));
             cmd.Parameters.Add(new SqlParameter("@gt", gt));
             cmd.Parameters.Add(new SqlParameter("@ngaysinh", DateTime.Parse( ngaysinh)));
             cmd.Parameters.Add(new SqlParameter("@diachi", diachi));
             cmd.Parameters.Add(new SqlParameter("@quequan", quequan));
             cmd.Parameters.Add(new SqlParameter("@phuhuynh", phuhuynh));
-            cmd.Parameters.Add(new SqlParameter("@lop", lop));
+            cmd.Parameters.Add(new SqlParameter("@tenlop", lop));
             try
             {
                 int count = cmd.ExecuteNonQuery();
@@ -105,19 +105,20 @@ namespace QL_HSGV
             DongKN();
         }
         //hàm thêm học sinh mới
-        public void ThemHS(string mahs, string ten, string lop, string gt, string diachi, string phuhuynh, string quequan, string ngaysinh)
+        public void ThemHS(string mahs, string ten, string gt, string ngaysinh, string diachi, string phuhuynh, string lop, string quequan)
         {
+            
             MoKN();
             SqlCommand cmd = new SqlCommand("ThemHS", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Add(new SqlParameter("@mahs", mahs));
-            cmd.Parameters.Add(new SqlParameter("@hodem", ten));
+            cmd.Parameters.Add(new SqlParameter("@hovaten", ten));
             cmd.Parameters.Add(new SqlParameter("@gt", gt));
             cmd.Parameters.Add(new SqlParameter("@ngaysinh", DateTime.Parse(ngaysinh)));
             cmd.Parameters.Add(new SqlParameter("@diachi", diachi));
             cmd.Parameters.Add(new SqlParameter("@quequan", quequan));
             cmd.Parameters.Add(new SqlParameter("@phuhuynh", phuhuynh));
-            cmd.Parameters.Add(new SqlParameter("@lop", lop));
+            cmd.Parameters.Add(new SqlParameter("@tenlop", lop));
             try
             {
                 int count = cmd.ExecuteNonQuery();

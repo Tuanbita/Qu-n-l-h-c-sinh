@@ -100,20 +100,20 @@
             this.Dtgrv_TTGD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Dtgrv_TTGD.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.Dtgrv_TTGD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dtgrv_TTGD.Location = new System.Drawing.Point(65, 97);
+            this.Dtgrv_TTGD.Location = new System.Drawing.Point(44, 130);
             this.Dtgrv_TTGD.Name = "Dtgrv_TTGD";
             this.Dtgrv_TTGD.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Dtgrv_TTGD.Size = new System.Drawing.Size(544, 237);
+            this.Dtgrv_TTGD.Size = new System.Drawing.Size(569, 242);
             this.Dtgrv_TTGD.TabIndex = 1;
             this.Dtgrv_TTGD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dtgrv_TTGD_CellClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 48);
+            this.label1.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Giáo viên";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -121,8 +121,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(537, 48);
+            this.label2.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(531, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 16);
             this.label2.TabIndex = 3;
@@ -132,46 +132,46 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(320, 48);
+            this.label3.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(314, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 16);
+            this.label3.Size = new System.Drawing.Size(58, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Môn học";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cmbGV
             // 
-            this.cmbGV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbGV.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbGV.FormattingEnabled = true;
-            this.cmbGV.Location = new System.Drawing.Point(83, 43);
+            this.cmbGV.Location = new System.Drawing.Point(77, 75);
             this.cmbGV.Name = "cmbGV";
             this.cmbGV.Size = new System.Drawing.Size(206, 23);
             this.cmbGV.TabIndex = 5;
             // 
             // cmbMH
             // 
-            this.cmbMH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMH.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMH.FormattingEnabled = true;
-            this.cmbMH.Location = new System.Drawing.Point(385, 43);
+            this.cmbMH.Location = new System.Drawing.Point(379, 75);
             this.cmbMH.Name = "cmbMH";
             this.cmbMH.Size = new System.Drawing.Size(138, 23);
             this.cmbMH.TabIndex = 6;
             // 
             // cmbLop
             // 
-            this.cmbLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbLop.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbLop.FormattingEnabled = true;
-            this.cmbLop.Location = new System.Drawing.Point(574, 41);
+            this.cmbLop.Location = new System.Drawing.Point(568, 73);
             this.cmbLop.Name = "cmbLop";
             this.cmbLop.Size = new System.Drawing.Size(59, 23);
             this.cmbLop.TabIndex = 7;
             // 
             // Frm_TTGD
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 366);
+            this.ClientSize = new System.Drawing.Size(673, 394);
             this.Controls.Add(this.cmbLop);
             this.Controls.Add(this.cmbMH);
             this.Controls.Add(this.cmbGV);

@@ -56,8 +56,8 @@ namespace QL_HSGV
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-           if(kt<=0) _con.Sua_TTHS(txtMaHS.Text, txtHoTen.Text, cboLop.Text, cboGT.Text, txtDiaChi.Text, txtPhuHuynh.Text, txtQueQuan.Text, txtNgaySinh.Text);
-           else _con.ThemHS(txtMaHS.Text, txtHoTen.Text, cboLop.Text, cboGT.Text, txtDiaChi.Text, txtPhuHuynh.Text, txtQueQuan.Text, txtNgaySinh.Text);
+           if(kt<=0) _con.Sua_TTHS(txtMaHS.Text, txtHoTen.Text, cboGT.Text, txtNgaySinh.Text, txtDiaChi.Text, txtPhuHuynh.Text, cboLop.Text, txtQueQuan.Text);
+           else _con.ThemHS(txtMaHS.Text, txtHoTen.Text, cboGT.Text, txtNgaySinh.Text, txtDiaChi.Text, txtPhuHuynh.Text, cboLop.Text, txtQueQuan.Text);
         }
 
         private void btnDong_Click(object sender, EventArgs e)

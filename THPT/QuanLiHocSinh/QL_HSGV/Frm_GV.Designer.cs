@@ -71,7 +71,6 @@
             this.btn_Xoa = new System.Windows.Forms.Button();
             this.btn_Sua = new System.Windows.Forms.Button();
             this.txt_Them = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DTGV_GV)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -248,7 +247,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.btn_TimKiem);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.chk_TenGV);
@@ -480,15 +478,6 @@
             this.txt_Them.UseVisualStyleBackColor = true;
             this.txt_Them.Click += new System.EventHandler(this.txt_Them_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(36, 143);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 13);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Tim kiem";
-            // 
             // Frm_GV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -560,6 +549,5 @@
         private System.Windows.Forms.Button btn_LamMoi;
         private System.Windows.Forms.Button btn_KiemTra;
         private System.Windows.Forms.DateTimePicker dtp_NgaySinh;
-        private System.Windows.Forms.Label label9;
     }
 }

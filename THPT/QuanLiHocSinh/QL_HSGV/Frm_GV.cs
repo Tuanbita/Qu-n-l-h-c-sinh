@@ -102,9 +102,12 @@ namespace QL_HSGV
                     dtGiaoVien = new DataTable();
                     dtGiaoVien.Clear();
                     daGiaoVien.Fill(dtGiaoVien);
+
                     dgv_GiaoVien.DataSource = dtGiaoVien;
                     dtGiaoVien.Dispose();
                     conn.Close();
+
+
                     dtGiaoVien = null;
                 }
                 else

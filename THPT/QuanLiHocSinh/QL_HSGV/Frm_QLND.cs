@@ -73,6 +73,15 @@ namespace QL_HSGV
             load();
         }
 
+        void TK_Q()
+        {
+
+
+            dong();
+            txt_P.Enabled = txt_U.Enabled = txt_Quyen.Enabled = true;
+            string s = "Select * from tblLogin where Uutien like N'%" + txt_Quyen.Text + "%'";
+            DTGV.DataSource = CN.Get(s);
+        }
         void TK_U()
         {
             dong();
@@ -81,24 +90,20 @@ namespace QL_HSGV
             DTGV.DataSource = CN.Get(s);
         }
 
-        void TK_Q()
-        {
-            dong();
-            txt_P.Enabled = txt_U.Enabled = txt_Quyen.Enabled = true;
-            string s = "Select * from tblLogin where Uutien like N'%" + txt_Quyen.Text + "%'";
-            DTGV.DataSource = CN.Get(s);
-        }
+        
 
 
         private void btn_Luu_Click(object sender, EventArgs e)
         {
-            if(RdB_Them.Checked == true)
+            
+
+            if (RdB_Them.Checked == true)
             {
                 themTK();
             }
             else
             {
-                if(RdB_Sua.Checked == true)
+                if (RdB_Sua.Checked == true)
                 {
                     SuaTK();
                 }
@@ -116,6 +121,8 @@ namespace QL_HSGV
 
         private void RdB_TK_Click(object sender, EventArgs e)
         {
+
+
             btn_Luu.Enabled = false;
             txt_U.Enabled = txt_Quyen.Enabled = true;
             txt_P.ResetText();

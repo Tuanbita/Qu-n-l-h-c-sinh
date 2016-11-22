@@ -60,3 +60,6 @@ F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSG
 F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
 F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
 F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\bin\Debug\QL_HSGV.exe.config
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.exe
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.pdb

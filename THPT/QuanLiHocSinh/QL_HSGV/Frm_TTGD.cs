@@ -48,6 +48,8 @@ namespace QL_HSGV
         }
         private void thêmToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+
             i = 1;
             MoButton();
             Xoa();

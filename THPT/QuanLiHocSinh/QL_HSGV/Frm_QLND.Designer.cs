@@ -53,9 +53,9 @@
             this.Username,
             this.Pass,
             this.Uutien});
-            this.DTGV.Location = new System.Drawing.Point(40, 137);
+            this.DTGV.Location = new System.Drawing.Point(22, 137);
             this.DTGV.Name = "DTGV";
-            this.DTGV.Size = new System.Drawing.Size(459, 177);
+            this.DTGV.Size = new System.Drawing.Size(499, 220);
             this.DTGV.TabIndex = 0;
             this.DTGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DTGV_CellClick);
             // 
@@ -176,7 +176,7 @@
             // btn_Luu
             // 
             this.btn_Luu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Luu.Location = new System.Drawing.Point(455, 12);
+            this.btn_Luu.Location = new System.Drawing.Point(443, 25);
             this.btn_Luu.Name = "btn_Luu";
             this.btn_Luu.Size = new System.Drawing.Size(67, 26);
             this.btn_Luu.TabIndex = 9;

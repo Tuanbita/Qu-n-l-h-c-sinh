@@ -1,62 +1,15 @@
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe.config
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.pdb
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.FrmMain.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_DangNhap.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_GV.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_HS.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_QLND.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe.config
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.exe
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.pdb
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.pdb
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csprojResolveAssemblyReference.cache
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.FrmMain.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_DangNhap.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_GV.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_HS.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_QLND.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
-=======
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe.config
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.exe
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.pdb
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.pdb
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csprojResolveAssemblyReference.cache
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.FrmMain.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_DangNhap.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_GV.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_HS.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_QLND.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
-C:\Users\Hiếu Học\Documents\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
->>>>>>> 5291b8d1a676659bb0fbf4c4399f66a1315ecab8
-D:\1-Study\4-HK6\ThucTapNhom\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_ThongTinHS.resources
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.exe
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.pdb
-E:\GitHub\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csprojResolveAssemblyReference.cache
->>>>>>> 53f3b3052bc5a0138d25970f2f7338bfc0953eb1
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe.config
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.exe
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.pdb
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.exe
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\bin\Debug\QL_HSGV.pdb
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csprojResolveAssemblyReference.cache
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.FrmMain.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_DangNhap.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_GV.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_HS.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_QLND.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_ThongTinHS.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
-F:\Visual\C###\SQL\THPT\TTN_QLGV-HS\Source code\QL_HSGV\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\bin\Debug\QL_HSGV.exe.config
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\bin\Debug\QL_HSGV.exe
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\bin\Debug\QL_HSGV.pdb
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.FrmMain.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_DangNhap.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_GV.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_HS.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_QLND.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_ThongTinHS.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Frm_TTGD.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.exe
+C:\Users\Admin\Documents\GitHub\Qu-n-l-h-c-sinh\THPT\QuanLiHocSinh\QL_HSGV\obj\Debug\QL_HSGV.pdb

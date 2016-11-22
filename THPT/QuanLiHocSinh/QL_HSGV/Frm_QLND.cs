@@ -30,6 +30,8 @@ namespace QL_HSGV
             DTGV.DataSource = CN.Get("Select * from tblLogin");
         }
 
+
+
         void dong()
         {
             txt_U.Enabled = txt_P.Enabled = btn_Luu.Enabled = txt_Quyen.Enabled = false;
@@ -73,24 +75,20 @@ namespace QL_HSGV
             load();
         }
 
+        void TK_U()
+        {
+            dong();
+            txt_P.Enabled = txt_U.Enabled = txt_Quyen.Enabled = true;
+            string s = "Select * from tblLogin where username like N'%" + txt_U.Text + "%'";
+            DTGV.DataSource = CN.Get(s);
+        }
         void TK_Q()
         {
-
-
             dong();
             txt_P.Enabled = txt_U.Enabled = txt_Quyen.Enabled = true;
             string s = "Select * from tblLogin where Uutien like N'%" + txt_Quyen.Text + "%'";
             DTGV.DataSource = CN.Get(s);
         }
-        void TK_U()
-        {
-            dong();
-            txt_P.Enabled = txt_U.Enabled = txt_Quyen.Enabled = true;
-            string s = "Select * from tblLogin where username like N'%"+txt_U.Text+"%'";
-            DTGV.DataSource = CN.Get(s);
-        }
-
-        
 
 
         private void btn_Luu_Click(object sender, EventArgs e)

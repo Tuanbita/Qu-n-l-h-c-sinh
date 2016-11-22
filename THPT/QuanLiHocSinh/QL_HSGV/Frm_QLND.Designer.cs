@@ -176,9 +176,9 @@
             // btn_Luu
             // 
             this.btn_Luu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Luu.Location = new System.Drawing.Point(443, 25);
+            this.btn_Luu.Location = new System.Drawing.Point(398, 25);
             this.btn_Luu.Name = "btn_Luu";
-            this.btn_Luu.Size = new System.Drawing.Size(67, 26);
+            this.btn_Luu.Size = new System.Drawing.Size(95, 26);
             this.btn_Luu.TabIndex = 9;
             this.btn_Luu.Text = "Lưu";
             this.btn_Luu.UseVisualStyleBackColor = true;

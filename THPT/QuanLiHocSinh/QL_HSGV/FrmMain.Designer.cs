@@ -33,7 +33,6 @@
             this.TStrip_GV = new System.Windows.Forms.ToolStripMenuItem();
             this.TStrip_TTGD = new System.Windows.Forms.ToolStripMenuItem();
             this.TStrip_QLND = new System.Windows.Forms.ToolStripMenuItem();
-            this.TStrip_Help = new System.Windows.Forms.ToolStripMenuItem();
             this.TStrip_Thoat = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -49,7 +48,6 @@
             this.TStrip_GV,
             this.TStrip_TTGD,
             this.TStrip_QLND,
-            this.TStrip_Help,
             this.TStrip_Thoat});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -85,12 +83,6 @@
             this.TStrip_QLND.Text = "Quản lý người dùng";
             this.TStrip_QLND.Click += new System.EventHandler(this.TStrip_QLND_Click);
             // 
-            // TStrip_Help
-            // 
-            this.TStrip_Help.Name = "TStrip_Help";
-            this.TStrip_Help.Size = new System.Drawing.Size(44, 20);
-            this.TStrip_Help.Text = "Help";
-            // 
             // TStrip_Thoat
             // 
             this.TStrip_Thoat.Name = "TStrip_Thoat";
@@ -105,7 +97,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(665, 420);
+            this.panel1.Size = new System.Drawing.Size(665, 454);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -114,16 +106,16 @@
             this.pictureBox1.Image = global::QL_HSGV.Properties.Resources.a8f8218643e95c0bd238a1fa398db6b6;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(665, 420);
+            this.pictureBox1.Size = new System.Drawing.Size(665, 454);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(665, 444);
+            this.ClientSize = new System.Drawing.Size(665, 478);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -148,7 +140,6 @@
         private System.Windows.Forms.ToolStripMenuItem TStrip_HS;
         private System.Windows.Forms.ToolStripMenuItem TStrip_GV;
         private System.Windows.Forms.ToolStripMenuItem TStrip_QLND;
-        private System.Windows.Forms.ToolStripMenuItem TStrip_Help;
         private System.Windows.Forms.ToolStripMenuItem TStrip_Thoat;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;

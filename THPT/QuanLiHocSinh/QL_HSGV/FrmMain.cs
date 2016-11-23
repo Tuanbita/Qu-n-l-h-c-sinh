@@ -63,5 +63,10 @@ namespace QL_HSGV
         {
 
         }
+
+        private void TStrip_Help_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

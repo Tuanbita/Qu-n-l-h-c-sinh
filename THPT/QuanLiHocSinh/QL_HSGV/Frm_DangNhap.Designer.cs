@@ -42,7 +42,7 @@
             // txtU
             // 
             this.txtU.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtU.Location = new System.Drawing.Point(139, 100);
+            this.txtU.Location = new System.Drawing.Point(139, 108);
             this.txtU.Name = "txtU";
             this.txtU.Size = new System.Drawing.Size(279, 25);
             this.txtU.TabIndex = 0;
@@ -50,7 +50,7 @@
             // txtP
             // 
             this.txtP.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtP.Location = new System.Drawing.Point(139, 154);
+            this.txtP.Location = new System.Drawing.Point(139, 166);
             this.txtP.Name = "txtP";
             this.txtP.PasswordChar = '*';
             this.txtP.Size = new System.Drawing.Size(279, 25);
@@ -59,81 +59,85 @@
             // 
             // btn_DN
             // 
-            this.btn_DN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DN.Location = new System.Drawing.Point(137, 204);
+            this.btn_DN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btn_DN.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DN.Location = new System.Drawing.Point(137, 220);
             this.btn_DN.Name = "btn_DN";
-            this.btn_DN.Size = new System.Drawing.Size(94, 41);
+            this.btn_DN.Size = new System.Drawing.Size(94, 44);
             this.btn_DN.TabIndex = 2;
             this.btn_DN.Text = "Đăng nhập";
-            this.btn_DN.UseVisualStyleBackColor = true;
+            this.btn_DN.UseVisualStyleBackColor = false;
             this.btn_DN.Click += new System.EventHandler(this.btn_DN_Click);
             // 
             // btn_RF
             // 
-            this.btn_RF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_RF.Location = new System.Drawing.Point(237, 204);
+            this.btn_RF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btn_RF.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_RF.Location = new System.Drawing.Point(237, 220);
             this.btn_RF.Name = "btn_RF";
-            this.btn_RF.Size = new System.Drawing.Size(81, 41);
+            this.btn_RF.Size = new System.Drawing.Size(81, 44);
             this.btn_RF.TabIndex = 3;
             this.btn_RF.Text = "Refresh";
-            this.btn_RF.UseVisualStyleBackColor = true;
+            this.btn_RF.UseVisualStyleBackColor = false;
             this.btn_RF.Click += new System.EventHandler(this.btn_RF_Click);
             // 
             // btn_Thoat
             // 
-            this.btn_Thoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Thoat.Location = new System.Drawing.Point(324, 204);
+            this.btn_Thoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btn_Thoat.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Thoat.Location = new System.Drawing.Point(324, 220);
             this.btn_Thoat.Name = "btn_Thoat";
-            this.btn_Thoat.Size = new System.Drawing.Size(95, 41);
+            this.btn_Thoat.Size = new System.Drawing.Size(95, 44);
             this.btn_Thoat.TabIndex = 4;
             this.btn_Thoat.Text = "Thoát";
-            this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.UseVisualStyleBackColor = false;
             this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
             // label
             // 
-            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label.Location = new System.Drawing.Point(171, 248);
+            this.label.Location = new System.Drawing.Point(171, 267);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(215, 28);
+            this.label.Size = new System.Drawing.Size(215, 30);
             this.label.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(196, 25);
+            this.label1.Font = new System.Drawing.Font("Arial", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(196, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 54);
+            this.label1.Size = new System.Drawing.Size(137, 53);
             this.label1.TabIndex = 6;
             this.label1.Text = "Login";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 107);
+            this.label2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(38, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 18);
+            this.label2.Size = new System.Drawing.Size(71, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Tài khoản";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 161);
+            this.label3.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(38, 173);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 18);
+            this.label3.Size = new System.Drawing.Size(66, 17);
             this.label3.TabIndex = 8;
             this.label3.Text = "Mật khẩu";
             // 
             // Frm_DangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 301);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(504, 324);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

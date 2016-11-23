@@ -64,15 +64,16 @@ namespace QL_HSGV
                 txt_MaGV.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[0].Value.ToString();
                 txt_HoTen.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[1].Value.ToString();
                 cbo_GioiTinh.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[2].Value.ToString();
-                int dd = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(0, 2));
-                int MM = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(3, 2));
-                int yyyy = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(6, 4));
+               // int dd = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(0, 2));
+               // int MM = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(3, 2));
+                //int yyyy = int.Parse(dgv_GiaoVien.Rows[e.RowIndex].Cells[3].Value.ToString().Substring(6, 4));
                 dtp_NgaySinh.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[3].Value.ToString();
                 txt_DiaChi.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[4].Value.ToString();
                 txt_Sdt.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[5].Value.ToString();
                 //txtGTinh.Text = Convert.ToString(dgv_NhanVien.Rows[CurrentIndex].Cells[4].Value.ToString());
                 txt_Luong.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[6].Value.ToString();
                 txt_MaMon.Text = dgv_GiaoVien.Rows[CurrentIndex].Cells[7].Value.ToString();
+               
             }
             catch
             {
@@ -309,7 +310,7 @@ namespace QL_HSGV
                             SqlConnection conn = new SqlConnection(strConnectionString);
                             conn.Open();
                             // đây là đổ dữ liệu vào bảng 
-                            daGiaoVien = new SqlDataAdapter("select * from tblGiaoVien where MaGV= '" + txt_MaGV.Text + "' ", conn);
+                            daGiaoVien = new SqlDataAdapter("select * from tblGiaoVien", conn);
                             dtGiaoVien = new DataTable();
                             dtGiaoVien.Clear();
                             daGiaoVien.Fill(dtGiaoVien);
@@ -351,7 +352,7 @@ namespace QL_HSGV
                             SqlConnection conn = new SqlConnection(strConnectionString);
                             conn.Open();
                             // đây là đổ dữ liệu vào bảng 
-                            daGiaoVien = new SqlDataAdapter("select * from tblGiaoVien where MaGV= '" + txt_MaGV.Text + "' ", conn);
+                            daGiaoVien = new SqlDataAdapter("select * from tblGiaoVien  ", conn);
                             dtGiaoVien = new DataTable();
                             dtGiaoVien.Clear();
                             daGiaoVien.Fill(dtGiaoVien);

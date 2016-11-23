@@ -90,6 +90,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox1.Controls.Add(this.dtp_NgaySinh);
             this.groupBox1.Controls.Add(this.cbo_GioiTinh);
             this.groupBox1.Controls.Add(this.label8);
@@ -247,6 +248,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox2.Controls.Add(this.btn_TimKiem);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.chk_TenGV);
@@ -383,6 +385,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox4.Controls.Add(this.btn_KiemTra);
             this.groupBox4.Controls.Add(this.btn_LamMoi);
             this.groupBox4.Controls.Add(this.btn_QuayLai);

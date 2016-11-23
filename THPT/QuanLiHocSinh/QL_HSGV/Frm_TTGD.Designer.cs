@@ -98,7 +98,7 @@
             // Dtgrv_TTGD
             // 
             this.Dtgrv_TTGD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.Dtgrv_TTGD.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Dtgrv_TTGD.BackgroundColor = System.Drawing.Color.Silver;
             this.Dtgrv_TTGD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dtgrv_TTGD.Location = new System.Drawing.Point(44, 130);
             this.Dtgrv_TTGD.Name = "Dtgrv_TTGD";
@@ -171,6 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(673, 394);
             this.Controls.Add(this.cmbLop);
             this.Controls.Add(this.cmbMH);

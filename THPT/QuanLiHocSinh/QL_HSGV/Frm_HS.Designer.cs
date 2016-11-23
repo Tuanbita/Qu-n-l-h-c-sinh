@@ -68,7 +68,7 @@
             this.dgvHocSinh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvHocSinh.Location = new System.Drawing.Point(0, 0);
             this.dgvHocSinh.Name = "dgvHocSinh";
-            this.dgvHocSinh.Size = new System.Drawing.Size(981, 352);
+            this.dgvHocSinh.Size = new System.Drawing.Size(981, 379);
             this.dgvHocSinh.TabIndex = 0;
             this.dgvHocSinh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHocSinh_CellClick);
             this.dgvHocSinh.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHocSinh_CellDoubleClick);
@@ -130,25 +130,26 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(981, 112);
+            this.panel1.Size = new System.Drawing.Size(981, 121);
             this.panel1.TabIndex = 1;
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox2.Controls.Add(this.txtTimLop);
             this.groupBox2.Controls.Add(this.txtTimTen);
             this.groupBox2.Controls.Add(this.txtTimMa);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(0, 67);
+            this.groupBox2.Location = new System.Drawing.Point(0, 73);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(981, 45);
+            this.groupBox2.Size = new System.Drawing.Size(981, 48);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm Kiếm";
             // 
             // txtTimLop
             // 
-            this.txtTimLop.Location = new System.Drawing.Point(829, 19);
+            this.txtTimLop.Location = new System.Drawing.Point(829, 20);
             this.txtTimLop.Name = "txtTimLop";
             this.txtTimLop.Size = new System.Drawing.Size(149, 20);
             this.txtTimLop.TabIndex = 0;
@@ -158,7 +159,7 @@
             // 
             // txtTimTen
             // 
-            this.txtTimTen.Location = new System.Drawing.Point(143, 22);
+            this.txtTimTen.Location = new System.Drawing.Point(143, 24);
             this.txtTimTen.Name = "txtTimTen";
             this.txtTimTen.Size = new System.Drawing.Size(197, 20);
             this.txtTimTen.TabIndex = 0;
@@ -168,7 +169,7 @@
             // 
             // txtTimMa
             // 
-            this.txtTimMa.Location = new System.Drawing.Point(42, 22);
+            this.txtTimMa.Location = new System.Drawing.Point(42, 24);
             this.txtTimMa.Name = "txtTimMa";
             this.txtTimMa.Size = new System.Drawing.Size(97, 20);
             this.txtTimMa.TabIndex = 0;
@@ -178,6 +179,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnLammoi);
             this.groupBox1.Controls.Add(this.btnSua);
@@ -185,7 +187,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(981, 67);
+            this.groupBox1.Size = new System.Drawing.Size(981, 72);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
@@ -195,9 +197,9 @@
             this.btnXoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnXoa.Image = global::QL_HSGV.Properties.Resources.Delete;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(307, 19);
+            this.btnXoa.Location = new System.Drawing.Point(307, 20);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 42);
+            this.btnXoa.Size = new System.Drawing.Size(75, 45);
             this.btnXoa.TabIndex = 0;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -209,9 +211,9 @@
             this.btnLammoi.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnLammoi.Image = global::QL_HSGV.Properties.Resources.Button_Refresh_icon__1_;
             this.btnLammoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLammoi.Location = new System.Drawing.Point(191, 19);
+            this.btnLammoi.Location = new System.Drawing.Point(191, 20);
             this.btnLammoi.Name = "btnLammoi";
-            this.btnLammoi.Size = new System.Drawing.Size(93, 42);
+            this.btnLammoi.Size = new System.Drawing.Size(93, 45);
             this.btnLammoi.TabIndex = 0;
             this.btnLammoi.Text = "Làm mới";
             this.btnLammoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -223,9 +225,9 @@
             this.btnSua.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSua.Image = global::QL_HSGV.Properties.Resources.edit_icon__1_;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(93, 19);
+            this.btnSua.Location = new System.Drawing.Point(93, 20);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 42);
+            this.btnSua.Size = new System.Drawing.Size(75, 45);
             this.btnSua.TabIndex = 0;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -237,9 +239,9 @@
             this.btnThem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnThem.Image = global::QL_HSGV.Properties.Resources.Actions_list_add_icon__1_;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(0, 19);
+            this.btnThem.Location = new System.Drawing.Point(0, 20);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 42);
+            this.btnThem.Size = new System.Drawing.Size(75, 45);
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -250,16 +252,16 @@
             // 
             this.panel2.Controls.Add(this.dgvHocSinh);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 112);
+            this.panel2.Location = new System.Drawing.Point(0, 121);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(981, 352);
+            this.panel2.Size = new System.Drawing.Size(981, 379);
             this.panel2.TabIndex = 2;
             // 
             // Frm_HS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(981, 464);
+            this.ClientSize = new System.Drawing.Size(981, 500);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Frm_HS";
